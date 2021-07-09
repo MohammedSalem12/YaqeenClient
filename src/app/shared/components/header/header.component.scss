@@ -1,5 +1,42 @@
+
+@import "../../../../assets/themes/variables.scss";
+
 .navbar{
   justify-content: space-between;
+  background:$base-color ;
+  border-radius: 3px 3px 20px 20px;
+  .links__container{
+    display: flex; 
+  }
+h3{
+  color: $black-color;
+  display: inline-block;
+  margin-right: 17px;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: $black-color;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
 }
 
 span{
@@ -11,7 +48,6 @@ header {
   padding: 5px 40px;
   box-shadow: 0 2px 3px #f0f0f0;
   display: inline-block;
-  background-color: #1a90b0;
   color: #fff;
   h1 {
     margin: 5px 0;

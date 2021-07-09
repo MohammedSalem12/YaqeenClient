@@ -1,6 +1,8 @@
-
+@import "~bootstrap/dist/css/bootstrap.css";
 body {
   font-size: 14px !important;
+  padding: 0;
+  margin: 0;
 }
 
 #toast-container > div {
@@ -13,14 +15,15 @@ body {
 
 
 /*------------------------------ Override angular material------------------------------*/
-.mat-typography{
-  margin: 0px;
-  direction: rtl;
-}
+// .mat-typography{
+//   margin: 0px;
+//   direction: rtl;
+// }
 
 .mat-drawer-container{
   min-height: 709px;
 }
+
 
 
 

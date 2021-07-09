@@ -45,6 +45,7 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 import { PortalModule } from '@angular/cdk/portal';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -135,6 +136,7 @@ const COMPONENTS = [
     NgxSpinnerModule,
     SharedRoutingModule,
     NgxSpinnerModule,
+    HttpClientModule,
     [...ANGULAR_MATERIAL_MODULES],
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

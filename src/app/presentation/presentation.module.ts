@@ -15,6 +15,6 @@ import { PresentationComponent } from './presentation.component';
     PresentationRoutingModule,
     SharedModule,
     
-  ]
+  ],
 })
 export class PresentationModule { }
