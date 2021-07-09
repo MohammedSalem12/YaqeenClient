@@ -1,0 +1,19 @@
+<mat-toolbar color='primary' class="navbar">
+  <div>
+    يــــــــــقــــــين
+
+  </div>
+  <div>
+    <button mat-button [matMenuTriggerFor]="menu">
+      User Name
+      <img
+        class="img-profile"
+        src="../../../../assets/59566329_2195377903850587_6023771841154252800_n.jpg"
+      />
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Profile</button>
+      <button mat-menu-item (click)="logOut()">Logout</button>
+    </mat-menu>
+  </div>
+</mat-toolbar>

@@ -1,0 +1,27 @@
+
+body {
+  font-size: 14px !important;
+}
+
+#toast-container > div {
+  opacity: 1;
+}
+
+.container {
+  width: 100%;
+}
+
+
+/*------------------------------ Override angular material------------------------------*/
+.mat-typography{
+  margin: 0px;
+  direction: rtl;
+}
+
+.mat-drawer-container{
+  min-height: 709px;
+}
+
+
+
+
